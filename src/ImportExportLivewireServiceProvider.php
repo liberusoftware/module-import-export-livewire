@@ -12,7 +12,6 @@ final class ImportExportLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'import-export-livewire');
-        Livewire\Livewire::component('import-export-livewire-overview', Liberu\Foundation\ImportExportLivewire\Livewire\Overview::class);
+        Livewire::component('import-export-livewire-overview', Liberu\Foundation\ImportExportLivewire\Livewire\Overview::class);
     }
 }
-
